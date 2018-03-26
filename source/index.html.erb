@@ -2,48 +2,35 @@
 title: RaiderRC
 ---
 
-<h1>
-  RaiderRC
-</h1>
+<div id="header">
+  <h1 class="logo">
+    RaiderRC
+  </h1>
+</div>
+
+<div id="cta">
+  <% link_to "https://www.twitch.tv/raiderrc", target: "_blank", :class => "button", :id => "twitch-button"  do %>
+    <%= image_tag 'Glitch_White_RGB.png', :class => "service-logo"  %>
+    Watch Live
+  <% end %>
+</div>
 
 <div class="row">
   <div id="about" class="cell">
     <h3 class="cell-header">
-      About Me
+      Bio
     </h3>
-    <p>
-      I'm RaiderRC. I stream PUBG Battlegrounds.
+    <p class="cell-body">
+      TBD
     </p>
   </div>
 
-  <div id="support" class="cell">
+  <div id="specs" class="cell">
     <h3 class="cell-header">
-      Support
+      Specs
     </h3>
-    <p>
-      Support me on <%= link_to("Twitch", "https://www.twitch.tv/raiderrc", target: "blank") %>
-    </p>
+    <ul class="cell-body">
+      <li>TBD</li>
+    </ul>
   </div>
 </div>
-
-<div class="row">
-  <div id="find-me" class="cell">
-    <h3 class="cell-header">
-      Find Me
-    </h3>
-    <% link_to "https://www.twitch.tv/raiderrc", target: "_blank" do %>
-      <%= image_tag 'twitch_logo_white.png', :class => "service-logo"  %>
-    <% end %>
-
-    <% link_to "https://steamcommunity.com/profiles/76561198260531016", target: "_blank" do %>
-      <%= image_tag 'steam_logo.png', :class => "service-logo"  %>
-    <% end %>
-  </div>
-
-  <div id="schedule" class="cell">
-    <h3 class="cell-header">
-      Schedule
-    </h3>
-  </div>
-</div>
-

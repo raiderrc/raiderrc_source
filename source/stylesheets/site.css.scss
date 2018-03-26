@@ -1,9 +1,17 @@
 body {
-  background-color: #26292d;
+  background-color: #1b1b1b;
   color: #FFFFFF;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'IBM Plex Mono', monospace;
   padding: 18vh 1rem;
   text-align: center;
+}
+
+#header {
+  padding: 20px 0;
+}
+
+.logo {
+  font-family: 'Press Start 2P', cursive;
 }
 
 a {
@@ -15,10 +23,27 @@ a {
   }
 }
 
+#twitch-button {
+  background-color: #6441A4;
+  border-color: #6441A4;
+}
+
+a.button {
+  display: inline-flex;
+  padding: 10px 20px;
+  flex-direction: "row";
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: "white";
+  -webkit-appearance: 'button';
+  text-decoration: none;
+}
+
 .service-logo {
   height: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 15px 0 10px;
 }
 
 .row {
@@ -38,10 +63,7 @@ a {
 
 .cell-header {
   color:white;
-  background-color: #84888e;
-  text-align: center;
-  border: 1px solid #84888e;
-  border-radius: 5px;
-  padding: 10px;
+  border-bottom: 1px solid #84888e;
+  padding: 10px 0px;
 }
 
