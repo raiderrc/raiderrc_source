@@ -42,7 +42,7 @@ page '/*.txt', layout: false
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.remote = 'raiderrc'
+  deploy.remote = 'page'
   deploy.branch = 'master'
   deploy.build_before = true
 end
